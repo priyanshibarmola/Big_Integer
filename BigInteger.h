@@ -1,6 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include "BigInteger.h"
+
+
+#indef BigInteger.h
+#define BigInteger.h
+
 struct node {
     int data;
     struct node *next;
